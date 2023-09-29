@@ -1,0 +1,210 @@
+/* Reset beberapa nilai bawaan */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Gaya utama */
+body {
+    color: #2E4374;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+p {
+    font-size: large;
+}
+
+i {
+    margin-right: 5px;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.no-list-style {
+    list-style-type: none; /* Menghilangkan tanda daftar (bullet atau numbering) */
+}
+
+.no-list-style li {
+    margin-bottom: 20px;
+    margin-left: 20px; /* Atur jarak kiri untuk setiap item daftar */
+    /* Tambahan gaya lainnya yang Anda inginkan */
+}
+
+.circle-frame {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%; /* Membuat elemen berbentuk lingkaran */
+    overflow: hidden; /* Mengatur foto agar tidak melintasi batas lingkaran */
+    border: 2px solid #333; /* Tambahkan garis pinggiran sesuai keinginan */
+}
+
+.circle-frame img {
+    width: 100%;
+    height: auto;
+    display: block; /* Menghilangkan spasi tambahan di bawah gambar */
+}
+
+.h1-about {
+    color: #C4B0FF;
+    font-size: xx-large;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.about {
+    color:#fff;
+    background-color: #2E4374;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #2E4374; /* Tampilan border */
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5); /* Properti box-shadow */
+}
+
+.about h1{
+    text-align: center;
+}
+
+.about h3{
+    color: #C4B0FF;
+}
+
+.about a{
+    color: #C4B0FF;
+}
+
+.Experience{
+    margin: 50px auto;
+    max-width: 1200px;
+
+}
+
+.Experience td.center-line{
+    border-left: 1px solid #2E4374; /* Garis di sebelah kiri */
+    border-right: 1px solid #2E4374; /* Garis di sebelah kanan */
+}
+
+.work-edu {
+    background-color: #fff;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #fff; /* Tampilan border */
+}
+
+.work-edu h5,
+.work-edu ul,
+.work-edu li{
+    color: #333;
+}
+
+.skills {
+    margin: 50px auto;
+    max-width: 1200px;
+}
+
+.list-skills {
+    color: #fff;
+    background-color: #2E4374;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #2E4374; /* Tampilan border */
+}
+
+.square {
+    color: #2E4374;
+    width: 100px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 20px; /* Mengatur radius sudut tumpul */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 50px;
+    margin-right: 10px;
+    margin: 5px;
+}
+
+.auto-font {
+    font-size: 70%; /* Atur ukuran font sebagai persentase dari ukuran parent (.rounded-box) */
+    text-align: center;
+}
+
+.inner-list {
+    display: flex;
+    padding: 0;
+}
+
+.contact h2 {
+    margin-bottom: 20px;
+}
+
+/* Gaya tabel */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border:none;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+a {
+    text-decoration: none; /* Menghilangkan garis bawah pada tautan */
+}
+
+/* Gaya portofolio item */
+.portfolio-item {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.portfolio-item img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.portfolio-item h3 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.button {
+    margin: 10px 0;
+}
+
+.button-setting {
+    background-color: #4B527E; /* Warna latar belakang */
+    color: #fff; /* Warna teks */
+    border: none; /* Menghilangkan border bawaan */
+    padding: 10px 20px; /* Ukuran tombol */
+}
+
+.button-setting:hover {
+    background-color: #0056b3; /* Warna latar belakang saat hover */
+    color: #fff; /* Warna teks saat hover */
+}
+/* Gaya footer */
+.footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #2E4374;
+    color: #fff;
+}
